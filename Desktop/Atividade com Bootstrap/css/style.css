@@ -4,8 +4,8 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-size: 19px;
+        box-sizing: border-box;
+    /* font-size: 19px; */
 }
 
 .banner {
@@ -38,4 +38,36 @@
 .header__chamada a:hover {
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
+}
+
+body{
+    background-color: white;
+}
+
+.titulobloco{
+    color: #171C2D;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+}
+
+.card-title {
+    color: #171C2D;
+    text-align: center;
+}
+
+.card-text{
+    color: #171C2D;
+    text-align: left;
+}
+
+i{
+    color: #F9982F;
+    align-items: center;
+}
+
+img{
+    width: 100%;
 }
